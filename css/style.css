@@ -1,0 +1,112 @@
+.container{
+	position: relative;
+	width: 1366px;
+	height: 768px;
+	padding: 39px 0px 69px 117px;
+	box-sizing: border-box;
+}
+.container::before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1366px;
+	height: 5px;
+	background: url(../images/top_band.png) no-repeat;
+}
+.container::after{
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 1366px;
+	height: 3px;
+	background: url(../images/bottom_band.png) no-repeat;
+}
+header > h1{
+	font: 56px SegoeLight;
+	margin-bottom: 27px;
+}
+main{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1246px;
+	height: 561px;
+	background-color: yellow;
+	font: 22px SegoeRegular;
+	color: #565656;
+}
+main figure:first-of-type{
+	width: 360px;
+	height: 370px;
+	background: url(../images/shirts.png) no-repeat 19% 83%;
+}
+main figure:nth-of-type(2){
+	width: 360px;
+	height: 180px;
+	background: url(../images/caps.png) no-repeat;
+}
+main figure:nth-of-type(3){
+	width: 230px;
+	height: 180px;
+	background: url(../images/cards.png) no-repeat;
+}
+main figure:nth-of-type(4){
+	width: 230px;
+	height: 180px;
+	background: url(../images/toys.png) no-repeat;
+}
+main figure:nth-of-type(5){
+	width: 230px;
+	height: 180px;
+	background: url(../images/magnets.png) no-repeat;
+}
+main figure:nth-of-type(6){
+	width: 230px;
+	height: 180px;
+	background: url(../images/pens.png) no-repeat;
+}
+main figure:nth-of-type(7){
+	width: 230px;
+	height: 370px;
+	background: url(../images/bags.png) no-repeat;
+}
+main figure:nth-of-type(8){
+	width: 395px;
+	height: 180px;
+	background: url(../images/notebooks.png) no-repeat;
+}
+main figure:nth-of-type(9){
+	width: 230px;
+	height: 180px;
+	background: url(../images/scrum_cards.png) no-repeat;
+}
+main figure:nth-of-type(10){
+	width: 230px;
+	height: 180px;
+	background: url(../images/pens.png) no-repeat;
+}
+main figure:nth-of-type(11){
+	width: 155px;
+	height: 180px;
+	background: url(../images/magnets.png) no-repeat;
+}
+main figure:last-of-type{
+	width: 155px;
+	height: 180px;
+	background: url(../images/toys.png) no-repeat 19% 83%;
+}
+main figure{
+	display: flex;
+}
+main figure figcaption{
+	height: 40px;
+	width: 100%;
+	margin-top:auto;
+	padding-left: 20px;
+	line-height: 40px;
+	opacity: .8;
+	background-color: #fff;
+}
